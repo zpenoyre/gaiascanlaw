@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+gaiascanlaw/__init__.py
+gaiascanlaw/scanlaw.py
+gaiascanlaw.egg-info/PKG-INFO
+gaiascanlaw.egg-info/SOURCES.txt
+gaiascanlaw.egg-info/dependency_links.txt
+gaiascanlaw.egg-info/requires.txt
+gaiascanlaw.egg-info/top_level.txt
+gaiascanlaw/data/gost_simple_1.fits
+gaiascanlaw/data/gost_simple_2.fits
