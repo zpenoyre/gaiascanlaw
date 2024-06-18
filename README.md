@@ -7,7 +7,7 @@
 
  usage:
     
-    times,angles=gaiascanlaw.scanlaw(ra,dec,tstart=gaiascanlaw.tstart,tend=gaiascanlaw.tdr3)
+    times,angles=gaiascanlaw.scanlaw(ra,dec,tstart=gaiascanlaw.tstart,tend=gaiascanlaw.tdr5)
 
  where ra and dec are in degrees, scan angles are in radians, and all times are in decimal year (between mid 2014 and early 2025) - the start of the mission and the end time of particular data releases are recorded (e.g. gaiascanlaw.tdrN) for convenience, such that you can access the scanlaw for other data releases by changing tend)
 
