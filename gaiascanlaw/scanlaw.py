@@ -14,6 +14,10 @@ gaiatimes=astropy.time.Time(["2014-07-25T10:31:25.554960001",
                             "2017-05-28T08:46:28.954612431",
                             "2020-01-20T22:01:30.250520158",
                             "2025-01-15T00:00:00"], format='isot', scale='tcb').decimalyear
+
+gaiaepochs=np.array([2015,2015.5,2016,2017,2020]) # apart from DR2 and DR3 these are guesses!
+# if someone can provide a source it would be much appreciated
+
 tstart=gaiatimes[0]
 tdr1=gaiatimes[1]
 tdr2=gaiatimes[2]

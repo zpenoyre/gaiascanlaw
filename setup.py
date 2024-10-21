@@ -16,4 +16,5 @@ setup(name="gaiascanlaw",
       install_requires=['numpy','astropy','scipy','healpy'],
       include_package_data=True,
       package_data={'': ['data/*.fits']},
+      long_description='https://astrometpy.readthedocs.io/en/latest/index.html'
       )
