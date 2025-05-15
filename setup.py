@@ -6,7 +6,7 @@ except ImportError:
 #from distutils.extension import Extension
 
 setup(name="gaiascanlaw",
-      version='0.1.0',
+      version='0.2.0',
       description='gaia scan law',
       author='Zephyr Penoyre',
       author_email='zephyrpenoyre@gmail.com',
