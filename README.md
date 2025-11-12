@@ -22,9 +22,9 @@
     times,angles,ccds=gaiascanlaw.scanlaw(ra,dec,ccd_row=True)
  will also return which ccd row (1-7) is used, with positive values corresponding to the preceeding field of view, and negative values the following (https://www.cosmos.esa.int/web/gaia/focal-plane)
 
-    times,angles=gaiascanlaw.scanlaw(ra,dec,obstype='astrometric')
+    times,angles=gaiascanlaw.scanlaw(ra,dec,obstype='astrometry')
 
- will cut out known gaps in the data corresponding to the particular type of observation ('astrometric', 'photometric' or 'spectroscopic') - gap data from https://www.cosmos.esa.int/web/gaia/dr3-data-gaps
+ will cut out known gaps in the data corresponding to the particular type of observation ('astrometry', 'photometry' or 'spectroscopy') - gap data from https://www.cosmos.esa.int/web/gaia/dr3-data-gaps
 
  ---
  
